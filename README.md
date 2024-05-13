@@ -14,7 +14,7 @@ In the User_Setup.h file stored in this repository TFT_eSPI library folder the s
 ![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/b3ade2d4-9333-437e-aa29-ee790c251820)
 
 Install the following libraries. The May 2024 versions can be found in the libraries ZIP in this repository
-
+...
 NimBLEDevice      // For BLE communication  https://github.com/h2zero/NimBLE-Arduino
 ESPNtpClient       // https://github.com/gmag11/ESPNtpClient
 AsyncTCP           // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
@@ -23,18 +23,5 @@ AsyncElegantOTA    // Used for OTA
 TFT_eSPI           // Graphics and font library for ILI9341 driver chip
 Adafruit_ILI9341   // https://github.com/adafruit/Adafruit_ILI9341
 Adafruit_GFX       // Core graphics library, with extra fonts.
-
-
-
-This LCD module uses ESP32-WROOM-32 module as the main control, the main
-control is a dual-core MCU, integrated WI-FI and Bluetooth functions, the main
-frequency can reach 240MHz, 520KB SRAM, 448KB ROM, Flash size is 4MB, The
-display resolution is 240x320, resistive touch. The module includes LCD display
-screen, backlight control circuit, touch screen control circuit, speaker drive circuit,
-photosensitive circuit and RGB-LED control circuit. TF card interface, serial interface,
-temperature and humidity sensor interface (DHT11 interface) and reserved IO port
-interface, this module supports development in arduino IDE, ESP IDE, Micropython
-and Mixly.
-![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/63aeeeb3-5563-4dcc-a6a9-111cfbe1b709)
-
-![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/44b8648a-e5db-4035-96a7-fa402f1cd625)
+...
+Control of the clock et cetera here: https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
