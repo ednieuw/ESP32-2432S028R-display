@@ -28,10 +28,10 @@ Adafruit_GFX       // Core graphics library, with extra fonts.
 
 load the ESP322432S028_WordclockV0xx.ino, compile and upload
 <pre>
-Open the Serial monitor in theArduino IDE,<br>
-set the baudrate to 115200 and send the letter I for the menu. <br>
+Open the Serial monitor in the Arduino IDE
+Set the baudrate to 115200 and send the letter I for the menu.
 Enter the character A followed with your routers SSID and send 
-enter the character B folloeed with your routers password and Send
-finally restert by sending the charcter @ or turn off and on the display
+Enter the character B folloeed with your routers password and Send
+Finally restart by sending the charcter @ or turn off and power for the display
 </pre>
 Control of the clock et cetera here: https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
