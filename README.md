@@ -14,7 +14,7 @@ In the User_Setup.h file stored in this repository TFT_eSPI library folder the s
 ![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/b3ade2d4-9333-437e-aa29-ee790c251820)
 
 Install the following libraries. The May 2024 versions can be found in the libraries ZIP in this repository
-...
+<pre>
 NimBLEDevice      // For BLE communication  https://github.com/h2zero/NimBLE-Arduino
 ESPNtpClient       // https://github.com/gmag11/ESPNtpClient
 AsyncTCP           // Used for webpage   https://github.com/me-no-dev/ESPAsyncWebServer
@@ -23,5 +23,5 @@ AsyncElegantOTA    // Used for OTA
 TFT_eSPI           // Graphics and font library for ILI9341 driver chip
 Adafruit_ILI9341   // https://github.com/adafruit/Adafruit_ILI9341
 Adafruit_GFX       // Core graphics library, with extra fonts.
-...
+</pre>
 Control of the clock et cetera here: https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
