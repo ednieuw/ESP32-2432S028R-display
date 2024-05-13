@@ -1,4 +1,7 @@
 # ESP32-2432S028R- cheap yellow display
+A word clock with four languages, digital and analog display. Settings can be contrlled with BLE and WIFI<br>
+
+![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/fbd90105-656f-4b38-a5d5-b3047d9a4e4c)
 
 Porting the code from an other ESP32 project with storage, WIFI and BLE was easy.<br> 
 It took many days to find the GPIO clash between the LDR analog input and the TFT-DC of the diaplay on GPIO2. 
