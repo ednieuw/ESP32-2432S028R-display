@@ -34,4 +34,8 @@ Enter the character A followed with your routers SSID and send
 Enter the character B folloeed with your routers password and Send
 Finally restart by sending the charcter @ or turn off and power for the display
 </pre>
-Control of the clock et cetera here: https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
+Control of the clock, explaination of the source code et cetera <br>
+here: https://github.com/ednieuw/Arduino-ESP32-Nano-Wordclock
+
+![CYD](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/15291b59-22f3-4ad4-be10-8c4f22c9630e)
+The display can be placed ib its container box and run on an USB 5V power supply 
