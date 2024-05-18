@@ -7,9 +7,9 @@ Porting the code from an other ESP32 project with storage, WIFI and BLE was easy
 It took many days to find the GPIO clash between the LDR analog input and the TFT-DC of the display on GPIO2. 
 The display froze every minute.<br> 
 At first I tried the TFT_eSPI library instead of the Adafruit_ILI9341 library that worked on other ILI-9314 displays.<br> 
-The TFT_eSPI library can be used for many displays but it makes it also difficult to find and use the proper setup.<br>
+The TFT_eSPI library can be used for many displays but it makes it also difficult to find and use the proper setup, especially when the hardware is not working.<br>
 In the end I opted for the Adafruit library but code for the eSPI library can also be used.<br>
-In the User_Setup.h file stored in this repository TFT_eSPI library folder the settings for the CYD are kept.
+In the User_Setup.h file stored in this repository the settings for the CYD are kept.
 
 ![image](https://github.com/ednieuw/ESP32-2432S028R-display/assets/12166816/b3ade2d4-9333-437e-aa29-ee790c251820)
 
